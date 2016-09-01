@@ -205,3 +205,18 @@ if !empty(system('which opam'))
 else
 
 endif
+
+imap <C-v> <ESC>"+pa
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#statusline#enabled = 1
+" let g:airline#extensions#tabline#left_sep = '|'
+" let g:airline#extensions#tabline#left_alt_sep = '|'
+set laststatus=2
+
+
+" Move between unmodified buffers
+set hidden
+
+set number
+set relativenumber

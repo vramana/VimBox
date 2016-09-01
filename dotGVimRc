@@ -55,7 +55,7 @@ endif
 set visualbell
 set t_vb=
 
-set gfn=Fira\ Mono\ for\ Powerline\ 12 
+set gfn=Fira\ Mono\ for\ Powerline\ 12
 
 " Maximize GVim on start
 if has("gui_running")
